@@ -14,6 +14,10 @@ ReactJS, CSS, SQLlite , Python (Flask)
 
   This is the general idea of the app , open to customisation. 
 
+  ## Figma link
+
+  https://www.figma.com/file/tHRH2cgfJ3kRcsMyTC7lOU/Flash-Cards?type=design&node-id=0%3A1&mode=design&t=MJIkdScqt2znLjBK-1
+
 # RoadMap for Flash-Cards
 
 ## 1. Set up Database (SQLlite)
