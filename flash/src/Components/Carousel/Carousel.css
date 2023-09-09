@@ -1,0 +1,36 @@
+.product-carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    background: #0E191D;
+    height: 41rem;
+}
+
+.product-container {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.arrow{
+    position: absolute;
+    filter: drop-shadow(0px 0px 5px #555);
+    width:2rem;
+    height: 2rem;
+    color: white;
+   
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.arrow-left{
+    left:1rem;
+}
+
+.arrow-right{
+    right:1rem;
+}

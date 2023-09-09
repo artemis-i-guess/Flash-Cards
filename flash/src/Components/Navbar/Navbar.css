@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+  }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #000;
+    width: 100%;
+    height: 6.3125rem;
+}
+
+
+.log{
+    width: 30rem;
+    display:flex;
+    justify-content:space-between;
+}
+
+.title{
+    margin-left:15px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 0.21875rem;
+}
+
+
+p, button{
+    color: #FFF;
+font-family: Roboto;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 0.21875rem;
+}
+
+.home{
+   display:flex;
+   justify-content:flex-start;
+}
+
+.login{
+    margin-right:10px;
+    height:50%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.login:hover{
+    border: 1px solid #00A3FF;
+}
