@@ -1,0 +1,75 @@
+.card{
+    width: 53.3125rem;
+    height: 30rem;
+
+    transform-style: preserve-3d;
+
+    position: relative;
+
+    
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+    
+    user-select: none;
+    cursor: pointer;
+    transition:  transform 1000ms;
+
+    background: #000;
+}
+
+.card-front,.card-back{
+    height: 100%;
+    width: 100%;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+    background: #000;
+    
+
+}
+
+.card-back{
+    transform: rotateY(180deg);
+}
+
+.flip-exit {
+    transform: rotateY(0deg);
+}
+
+.flip-exit-active {
+    transform: rotateY(180deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(.57,.21,.69,1.25);
+}
+
+.flip-exit-done {
+    transform: rotateY(180deg);
+}
+
+.flip-enter {
+    transform: rotateY(180deg);
+}
+
+.flip-enter-active {
+    transform: rotateY(0deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(.57,.21,.69,1.25);
+}
+
+.flip-enter-done {
+    transform: rotateY(0deg);
+}
+
+
+
